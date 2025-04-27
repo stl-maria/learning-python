@@ -1,12 +1,12 @@
-# 🐍 Python - Exercícios Iniciais
+# ⭐ Python - Exercícios Iniciais
 
-Bem-vindo(a)! 👋  
+Bem-vindo(a)! 😊  
 Este repositório foi criado com o objetivo de compartilhar exercícios práticos e comentados sobre os fundamentos da linguagem Python. Ideal para iniciantes que estão dando os primeiros passos na programação.
 
-## 🧭 Objetivo
+## 💘 Objetivo
 Criar uma base sólida de conhecimento em Python, abordando desde a sintaxe básica até estruturas de controle e manipulação de strings.
 
-## 📚 Conteúdo
+## 💌 Conteúdo
 
 ### 1. Conhecendo a Linguagem
 - Guia de estilo
@@ -35,15 +35,15 @@ Criar uma base sólida de conhecimento em Python, abordando desde a sintaxe bás
 - Formatação de strings
 - Fatiamento de strings
 
-## 📂 Organização
+## 🌻 Organização
 
-Cada tema está organizado em pastas, com arquivos `.py` contendo exemplos explicativos, comentários e exercícios propostos para praticar.
+Cada tema está organizado em arquivos `.py` contendo exemplos explicativos, comentários e exercícios propostos para praticar.
 
-## 💡 Requisitos
+## ✨ Requisitos
 - Python 3 instalado
 - Editor de código (ex: VS Code)
 
-## 📌 Como usar
+## 💜 Como usar
 1. Clone o repositório:
 ```bash
 git clone https://github.com/stl-maria/python-exercicios.git
