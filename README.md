@@ -1,7 +1,7 @@
-# ⭐ Python - Exercícios Iniciais
+# ⭐ Python - Exercícios
 
 Bem-vindo(a)! 😊  
-Este repositório foi criado com o objetivo de compartilhar exercícios práticos e comentados sobre os fundamentos da linguagem Python. Ideal para iniciantes que estão dando os primeiros passos na programação.
+Este repositório foi criado com o objetivo de compartilhar exercícios práticos e comentados sobre os fundamentos da linguagem Python. Espero que possa ajudar iniciantes que estão dando os primeiros passos na programação. ✨
 
 ## 💘 Objetivo
 Criar uma base sólida de conhecimento em Python, abordando desde a sintaxe básica até estruturas de controle e manipulação de strings.
@@ -9,11 +9,9 @@ Criar uma base sólida de conhecimento em Python, abordando desde a sintaxe bás
 ## 💌 Conteúdo
 
 ### 1. Conhecendo a Linguagem
-- Guia de estilo
 - Comentários
 - Saída de dados (`print`)
 - Tipos de dados básicos
-- Strings
 - Argumentos nomeados da função `print()`
 - Entrada de dados (`input`)
 
