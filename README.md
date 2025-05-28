@@ -11,8 +11,8 @@ Criar uma base sólida de conhecimento em Python, abordando desde a sintaxe bás
 ### 1. Conhecendo a Linguagem
 - Comentários
 - Saída de dados (`print`)
+- String
 - Tipos de dados básicos
-- Argumentos nomeados da função `print()`
 - Entrada de dados (`input`)
 
 ### 2. Tipos de Operadores
