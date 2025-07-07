@@ -20,35 +20,35 @@ Este repositório documenta minha jornada de aprendizado em Python, cobrindo os 
 
 Esta seção aborda os conceitos iniciais de Python, como variáveis, tipos de dados básicos, entrada e saída de dados.
 
-* [Ver Explicação em Código](link_para_explicacao_codigo_1) 
-* [Acessar Exercícios Práticos](link_para_exercicios_1) 
+* [Ver Explicação em Código](01-conhecendo-a-linguagem/explicacao-basica.py) 
+* [Acessar Exercícios Práticos](01-conhecendo-a-linguagem/exercicios-praticos.py) 
 
 ---
 
 ## 2. Tipos de Operadores 💖
 
 Apresenta os diferentes tipos de operadores em Python: aritméticos, de comparação, lógicos, de atribuição, e etc. `+` `-` `*` `/`
-
+<!--
 * [Ver Explicação em Código](link_para_explicacao_codigo_2) 
-* [Acessar Exercícios Práticos](link_para_exercicios_2) 
+* [Acessar Exercícios Práticos](link_para_exercicios_2) -->
 
 ---
 
 ## 3. Estruturas Condicionais e de Repetição 💫
 
 Veja como funciona `if`, `elif`, `else`, e as estruturas de repetição `for` e `while`.
-
+<!--
 * [Ver Explicação em Código](link_para_explicacao_codigo_3) 
-* [Acessar Exercícios Práticos](link_para_exercicios_3) 
+* [Acessar Exercícios Práticos](link_para_exercicios_3) -->
 
 ---
 
 ## 4. Manipulando Strings 🪻
 
 Entenda como trabalhar com textos em Python, utilizando métodos e funções para manipulação de strings.
-
+<!--
 * [Ver Explicação em Código](link_para_explicacao_codigo_4) 
-* [Acessar Exercícios Práticos](link_para_exercicios_4) 
+* [Acessar Exercícios Práticos](link_para_exercicios_4) -->
 
 ---
 
