@@ -1,47 +1,69 @@
-# ⭐ Python - Exercícios
+# Python Básico („• ᴗ •„)
 
-Bem-vindo(a)! 😊  
-Este repositório foi criado com o objetivo de compartilhar exercícios práticos e comentados sobre os fundamentos da linguagem Python. Espero que possa ajudar iniciantes que estão dando os primeiros passos na programação. ✨
+Bem-vinda(o) ao meu repositório de estudos de Python Básico! 💖
 
-## 💘 Objetivo
-Criar uma base sólida de conhecimento em Python, abordando desde a sintaxe básica até estruturas de controle e manipulação de strings.
+Este repositório documenta minha jornada de aprendizado em Python, cobrindo os fundamentos da linguagem com **explicações em código**, **exercícios práticos** e **mini-projetos** para consolidar o conhecimento. ✨
 
-## 💌 Conteúdo
+---
 
-### 1. Conhecendo a Linguagem
-- Comentários
-- Saída de dados (`print`)
-- String
-- Tipos de dados básicos
-- Entrada de dados (`input`)
+## Sumário 🌺
 
-### 2. Tipos de Operadores
-- Aritméticos
-- Comparação
-- Lógicos
-- Atribuição
-- Identidade
+* [1. Conhecendo a Linguagem](#01-conhecendo-a-linguagem)
+* [2. Tipos de Operadores](#02-tipos-de-operadores)
+* [3. Estruturas Condicionais e de Repetição](#03-estruturas-condicionais-e-de-repeticao)
+* [4. Manipulando Strings](#04-manipulando-strings)
+* [Mini-Projetos](#mini-projetos)
 
-### 3. Estruturas Condicionais e de Repetição
-- Condicional (`if`, `else`, `elif`)
-- Repetição (`for`, `while`)
-- Função `range()`
-- Operador ternário
-- Palavras-chave `break` e `continue`
+---
 
-### 4. Manipulando Strings
-- Formatação de strings
-- Fatiamento de strings
+## 1. Conhecendo a Linguagem 🎀
 
-## 🌻 Organização
+Esta seção aborda os conceitos iniciais de Python, como variáveis, tipos de dados básicos, entrada e saída de dados.
 
-Cada tema está organizado em arquivos `.py` contendo exemplos explicativos, comentários e exercícios propostos para praticar.
+* [Ver Explicação em Código](link_para_explicacao_codigo_1) 
+* [Acessar Exercícios Práticos](link_para_exercicios_1) 
 
-## ✨ Requisitos
-- Python 3 instalado
-- Editor de código (ex: VS Code)
+---
 
-## 💜 Como usar
-1. Clone o repositório:
-```bash
-git clone https://github.com/stl-maria/python-exercicios.git
+## 2. Tipos de Operadores 💖
+
+Apresenta os diferentes tipos de operadores em Python: aritméticos, de comparação, lógicos, de atribuição, e etc. `+` `-` `*` `/`
+
+* [Ver Explicação em Código](link_para_explicacao_codigo_2) 
+* [Acessar Exercícios Práticos](link_para_exercicios_2) 
+
+---
+
+## 3. Estruturas Condicionais e de Repetição 💫
+
+Veja como funciona `if`, `elif`, `else`, e as estruturas de repetição `for` e `while`.
+
+* [Ver Explicação em Código](link_para_explicacao_codigo_3) 
+* [Acessar Exercícios Práticos](link_para_exercicios_3) 
+
+---
+
+## 4. Manipulando Strings 🪻
+
+Entenda como trabalhar com textos em Python, utilizando métodos e funções para manipulação de strings.
+
+* [Ver Explicação em Código](link_para_explicacao_codigo_4) 
+* [Acessar Exercícios Práticos](link_para_exercicios_4) 
+
+---
+
+## Mini-Projetos 💜
+
+Presente pequenos projetos que integram múltiplos conceitos de Python aprendidos.
+
+<!--* **Projeto 01: Calculadora Simples** 🧮
+    * Uma calculadora que realiza operações básicas (`+`, `-`, `*`, `/`) e trata erros de entrada.
+    * [Acessar Projeto](link_para_projeto_1)
+* **Projeto 02: Jogo da Forca** 🎮
+    * Implementação simples do clássico jogo da forca com interação via console.
+    * [Acessar Projeto](link_para_projeto_2)-->
+
+---
+
+
+Feito com carinho por: [stl-maria](https://github.com/stl-maria) ⭐
