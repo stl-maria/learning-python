@@ -7,11 +7,11 @@ def exibir_nome_programa():
 
 # opções
 def exibir_opcoes():
-    print('1. Calculadora.')
-    print('2. Classificador de idade.')
-    print('3. Inversor de palavras.')
-    print('4. Contador de vogais.')
-    print('5. Tabuada personalizada')
+    print('1. Calculadora.')  # 3
+    print('2. Classificador de idade.')  # 3
+    print('3. Inversor de palavras.')  # 4
+    print('4. Contador de vogais.')  # 3 
+    print('5. Tabuada personalizada')  # 3
     print('6. Sair\n')
 
 # finalizar o app
