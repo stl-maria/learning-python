@@ -15,46 +15,45 @@ LIMITE_SAQUES = 3
 while True:
     opcao = input(menu)
 
-    # Depositar
+    # Depositar:
     if opcao == 'd':
         try:
             deposito = float(input('Informe o valor a ser depositado: '))
-            if deposito > 0:
+            if deposito > 0:  # Condicional para depositar apenas valores positivos.
                 saldo += deposito
                 print('\nDeposito feito com sucesso!')
-                linha_extrato = f'Deposito: R$ {deposito:.2f}. Saldo: R$ {saldo:.2f}.\n'
-                extrato += linha_extrato
+                linha_extrato = f'Deposito: R$ {deposito:.2f}. Saldo: R$ {saldo:.2f}.\n'  # Linha a ser inserida no extrato.
+                extrato += linha_extrato  # Concatenando no extrato.
             else:
                 print('Informe um valor positivo.')
         except ValueError:
             print('\nValor invalido. Digite um número.')
 
-    # Sacar
+    # Sacar:
     elif opcao == 's':
-        if numero_saques >= LIMITE_SAQUES:
+        if numero_saques >= LIMITE_SAQUES:  # Condicional para limites de saques diários.
             print('\nVocë atingiu o número máximo de saques diario.')
         else:
             try:
                 saque = float(input('Informe o valor a ser sacado: '))
-
-                if saque <= 0:
+                if saque <= 0:  # Condicional quando o valor do saque for menor ou igual a 0. 
                     print('\nOperação falhou! Digite um valor positivo.')
-                elif saque > saldo:
+                elif saque > saldo:  # Condicional quando o valor do saque for maior que o saldo atual.
                     print('\nOperação falhou! Valor superior ao saldo atual.')
-                elif saque > limite_valor:
+                elif saque > limite_valor:  # Condicional quando o valor do saque for maior que o limite para a transação.
                     print(f'\nOperação falhou! O valor do saque excede ao limite de R$ {limite_valor:.2f}')
                 else:
                     saldo -= saque
-                    numero_saques += 1
+                    numero_saques += 1  # Contagem de quantidade de saques.
                     print('\nSaque feito com sucesso!')
-                    linha_extrato = f'Saque: R$ {saque:.2f}. Saldo: R$ {saldo:.2f}.\n'
-                    extrato += linha_extrato
+                    linha_extrato = f'Saque: R$ {saque:.2f}. Saldo: R$ {saldo:.2f}.\n'  # Linha a ser inserida no extrato.
+                    extrato += linha_extrato  # Concatenando no extrato.
             except ValueError:
                 print('\nValor invalido. Digite um número.')
 
     # Extrato
     elif opcao == 'e':
-        if extrato == '--- EXTRATO BANCÁRIO ---\n':
+        if extrato == '--- EXTRATO BANCÁRIO ---\n':  # Condicional para quando não houve transações.
             print(extrato)
             print('Nenhuma operação realizada.')
         else:
@@ -64,6 +63,6 @@ while True:
     # Sair
     elif opcao == 'q':
         print('Saindo...')
-        break
+        break  # Saindo do loop.
     else:
         print('Opção invalida.')
