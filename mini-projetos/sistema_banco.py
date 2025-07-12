@@ -8,7 +8,7 @@ menu = '''
 
 saldo = 0.0
 limite_valor = 500.0
-extrato = '--- EXTRATO BANCÁRIO ---\n'
+extrato = ''
 numero_saques = 0
 LIMITE_SAQUES = 3
 
@@ -22,17 +22,16 @@ while True:
             if deposito > 0:  # Condicional para depositar apenas valores positivos.
                 saldo += deposito
                 print('\nDeposito feito com sucesso!')
-                linha_extrato = f'Deposito: R$ {deposito:.2f}. Saldo: R$ {saldo:.2f}.\n'  # Linha a ser inserida no extrato.
-                extrato += linha_extrato  # Concatenando no extrato.
+                extrato += f'Depósito: R$ {deposito:.2f}.\n'  # Concatenando no extrato.
             else:
                 print('Informe um valor positivo.')
         except ValueError:
-            print('\nValor invalido. Digite um número.')
+            print('Valor invalido. Digite um número.')
 
     # Sacar:
     elif opcao == 's':
         if numero_saques >= LIMITE_SAQUES:  # Condicional para limites de saques diários.
-            print('\nVocë atingiu o número máximo de saques diario.')
+            print('\nVocê atingiu o número máximo de saques diario.')
         else:
             try:
                 saque = float(input('Informe o valor a ser sacado: '))
@@ -46,19 +45,16 @@ while True:
                     saldo -= saque
                     numero_saques += 1  # Contagem de quantidade de saques.
                     print('\nSaque feito com sucesso!')
-                    linha_extrato = f'Saque: R$ {saque:.2f}. Saldo: R$ {saldo:.2f}.\n'  # Linha a ser inserida no extrato.
-                    extrato += linha_extrato  # Concatenando no extrato.
+                    extrato += f'Saque: R$ {saque:.2f}.\n'  # Concatenando no extrato.
             except ValueError:
-                print('\nValor invalido. Digite um número.')
+                print('Valor invalido. Digite um número.')
 
     # Extrato
     elif opcao == 'e':
-        if extrato == '--- EXTRATO BANCÁRIO ---\n':  # Condicional para quando não houve transações.
-            print(extrato)
-            print('Nenhuma operação realizada.')
-        else:
-            print(extrato)
-            print(f'Saldo atual: {saldo:.2f}')
+        print('--- EXTRATO BANCÁRIO ---\n')  # Cabeçalho
+        print('Não foram realizadas movimentações.\n' if not extrato else extrato)  # Condicional para verificar se o extrato está vazio.
+        print(f'\nSaldo: R$ {saldo:.2f}')
+        print('--------------------------')  # Rodapé
 
     # Sair
     elif opcao == 'q':
