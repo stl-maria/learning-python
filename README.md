@@ -56,12 +56,16 @@ Entenda como trabalhar com textos em Python, utilizando métodos e funções par
 
 Presente pequenos projetos que integram múltiplos conceitos de Python aprendidos.
 
-<!--* **Projeto 01: Calculadora Simples** 🧮
-    * Uma calculadora que realiza operações básicas (`+`, `-`, `*`, `/`) e trata erros de entrada.
-    * [Acessar Projeto](link_para_projeto_1)
+**Sistema de Banco - Básico**
+* [Acessar projeto](mini-projetos/sistema_banco_basico.py)
+
+**Sistema de Banco**
+* [Acessar projeto](mini-projetos/sistema_banco.py)
+
+<!--
 * **Projeto 02: Jogo da Forca** 🎮
     * Implementação simples do clássico jogo da forca com interação via console.
-    * [Acessar Projeto](link_para_projeto_2)-->
+    * [Acessar projeto](link_para_projeto_2)-->
 
 ---
 
