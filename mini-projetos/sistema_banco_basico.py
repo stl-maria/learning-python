@@ -51,15 +51,17 @@ def saldo():
 def deposito():
     global saldo_valor
     exibir_subtitulo(f'{NOME_DEPOSITO}')
-    try:
-        deposito_valor = float(input('Informe o valor a ser depositado: '))
-        if deposito_valor > 0:
-            saldo_valor += deposito_valor
-            print('\nOperação concluída. Depósito realizado com sucesso!')
-        else:
-            print('\nO valor do depósito deve ser positivo.')
-    except:
-        print('Erro: Valor inválido. Por favor, digite um número.')
+    while True:
+        try:
+            deposito_valor = float(input('Informe o valor a ser depositado: '))
+            if deposito_valor > 0:
+                saldo_valor += deposito_valor
+                print('\nOperação concluída. Depósito realizado com sucesso!')
+                break
+            else:
+                print('O valor do depósito deve ser positivo.\n')
+        except:
+            print('Erro: Valor inválido. Por favor, digite um número.')
     voltar_ao_menu()
 
 # operação de saque
