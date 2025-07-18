@@ -1,6 +1,6 @@
-# Python Básico („• ᴗ •„)
+# Python („• ᴗ •„)
 
-Bem-vinda(o) ao meu repositório de estudos de Python Básico! 💖
+Bem-vinda(o) ao meu repositório de estudos de Python! 💖
 
 Este repositório documenta minha jornada de aprendizado em Python, cobrindo os fundamentos da linguagem com **explicações em código**, **exercícios práticos** e **mini-projetos** para consolidar o conhecimento. ✨
 
